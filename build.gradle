@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Commons Collections - known for insecure deserialization vulnerabilities
+    implementation 'commons-collections:commons-collections:3.2.1'
+    
+    // Spring Core - older versions have had various vulnerabilities
+    implementation 'org.springframework:spring-core:4.3.13.RELEASE'
+
+    // Log4j - version 1.x is known for security issues and is end-of-life
+    implementation 'log4j:log4j:1.2.17'
+    
+    implementation("io.springfox:springfox-swagger-ui:2.9.2")
+    implementation("io.swagger:swagger-annotations:1.5.22")
+    implementation("io.swagger:swagger-models:1.5.22")
+
+    testImplementation 'junit:junit:4.13.2'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
