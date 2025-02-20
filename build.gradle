@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     // Commons Collections - known for insecure deserialization vulnerabilities
-    implementation 'commons-collections:commons-collections:3.2.1'
+    implementation 'commons-collections:commons-collections:3.2.2'
     
     // Spring Core - older versions have had various vulnerabilities
     implementation 'org.springframework:spring-core:4.3.13.RELEASE'
