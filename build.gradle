@@ -47,7 +47,7 @@ dependencies {
     // Apache Libraries
     implementation 'org.apache.avalon:avalon-framework:4.2.0'
     implementation 'org.apache.velocity:velocity:1.7'
-    implementation 'org.apache.xmlgraphics:xmlgraphics-commons:2.7'
+    implementation 'org.apache.xmlgraphics:xmlgraphics-commons:2.10'
     implementation 'xerces:xercesImpl:2.12.2'
  
     // Jackson Libraries
