@@ -95,7 +95,7 @@ dependencies {
     implementation 'javax.activation:activation:1.1.1'
     implementation 'org.apache.avalon.framework:avalon-framework-api:4.3.1'
     implementation 'org.apache.avalon.framework:avalon-framework-impl:4.3.1'
-    implementation 'org.apache.ws.commons.axiom:axiom-api:1.2.20'
+    implementation 'org.apache.ws.commons.axiom:axiom-api:2.0.0'
     implementation 'org.apache.ws.commons.axiom:axiom-dom:1.2.20'
     implementation 'org.apache.ws.commons.axiom:axiom-impl:1.2.20'
     implementation 'org.apache.axis2:axis2-adb:1.7.7'
